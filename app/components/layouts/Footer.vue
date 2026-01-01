@@ -1,5 +1,5 @@
 <script setup>
-import { BloggerIcon, GitHubIcon, GmailIcon, MastodonIcon, TelegramIcon, XIcon } from 'vue3-simple-icons'
+import { BloggerIcon, GitHubIcon, MailDotRuIcon, MastodonIcon, TelegramIcon, XIcon } from 'vue3-simple-icons'
 
 const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig()
 </script>
@@ -46,7 +46,7 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
           "
         >
           <span class="sr-only">{{ $t('layouts.footer.social.email') }}</span>
-          <GmailIcon
+          <MailDotRuIcon
             class="h-6 w-6"
           />
         </a>
