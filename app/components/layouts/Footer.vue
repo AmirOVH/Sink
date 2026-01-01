@@ -12,24 +12,23 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
         sm:flex-row
       "
     >
-      <a
-        href="https://sink.cool"
+      <span
         class="
           text-xl leading-none font-black text-gray-900 select-none
           dark:text-gray-100
         "
         :title="title"
-      >{{ title }}</a>
+      >{{ title }}</span>
       <a
         class="
           mt-4 text-sm text-gray-500
           sm:mt-0 sm:ml-4 sm:border-l sm:border-gray-200 sm:pl-4
         "
-        href="https://html.zone"
+        href="https://www.amir.ovh/"
         target="_blank"
-        title="HTML.ZONE"
+        title="Amir.OVH"
       >
-        &copy; {{ new Date().getFullYear() }} Products of HTML.ZONE
+        &copy; {{ new Date().getFullYear() }} Amir.OVH
       </a>
       <span
         class="

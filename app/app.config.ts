@@ -3,7 +3,7 @@ export default defineAppConfig({
   email: 'me@amir.ovh',
   blog: 'https://www.amir.ovh/',
   github: 'https://github.com/AmirOVH',
-  telegram: 'https://sink.cool/AmirOVH',
+  telegram: 'https://t.me/AmirOVH',
   description: 'AmirGT Link Shortner',
   image: 'https://www.amir.ovh/icon.webp',
   previewTTL: 300, // 5 minutes
