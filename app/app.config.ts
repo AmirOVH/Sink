@@ -4,7 +4,7 @@ export default defineAppConfig({
   blog: 'https://www.amir.ovh/',
   github: 'https://github.com/AmirOVH',
   telegram: 'https://t.me/AmirOVH',
-  description: 'This is AmirGT\'s private link shortener service.',
+  description: 'This is AmirGT\'s private link shortener service. There\'s nothing to do here.',
   image: 'https://www.amir.ovh/icon.webp',
   previewTTL: 300, // 5 minutes
   slugRegex: /^[a-z0-9]+(?:-[a-z0-9]+)*$/i,
