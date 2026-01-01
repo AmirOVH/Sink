@@ -23,7 +23,7 @@ const { title, description, github } = useAppConfig()
       >
         {{ title }}
       </h1>
-      <p class="mt-4 max-w-xl text-lg text-slate-600">
+      <p class="mt-4 max-w-xxl text-lg text-slate-600">
         {{ description }}
       </p>
       <div
@@ -32,18 +32,6 @@ const { title, description, github } = useAppConfig()
           sm:flex-row
         "
       >
-        <HomeLink
-          href="/dashboard"
-          target="_blank"
-          title="Dashboard"
-          class="flex items-center justify-center gap-1"
-          rel="noopener"
-        >
-          <AreaChart
-            class="h-5 w-5"
-          />
-          {{ $t('dashboard.title') }}
-        </HomeLink>
       </div>
     </div>
     <div
