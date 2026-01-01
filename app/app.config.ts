@@ -1,5 +1,5 @@
 export default defineAppConfig({
-  title: 'AmirGT Link Shortner',
+  title: 'AmirGT Link Shortener',
   email: 'me@amir.ovh',
   blog: 'https://www.amir.ovh/',
   github: 'https://github.com/AmirOVH',
